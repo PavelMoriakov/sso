@@ -1,0 +1,9 @@
+logging:
+  level: INFO
+  loggers:
+    com.naya.poc: DEBUG
+oktaOAuth:
+  baseUrl: https://dev-571525.okta.com
+  issuer: "https://dev-571525.okta.com/oauth2/default"
+  clientId: "0oa1qcupj9b3DGLEU357"
+  audience: "api://default"  # defaults to 'api://default'
